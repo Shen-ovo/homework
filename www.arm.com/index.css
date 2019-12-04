@@ -1,0 +1,68 @@
+body {
+    background-image: url(./images/15.jpg);
+    background-size: 1258px*706px;
+    background-repeat: no-repeat;
+}
+.daohanglan {
+     list-style-type: none;
+     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+     list-style-position: inside;
+     margin-bottom: 0;
+     margin-left: 0;
+     display: list-item;
+     text-align: -wekit-match-parent;
+     font-size: 1.125rem;
+     line-height: 1.5;   
+}
+
+.c-masthead__subtitle__title {
+    font-size: 72px;
+    font-family: 'c-masthead__subtitle__title';
+    line-height: .9;
+    margin-top: 12px;
+    display: inline-block;
+    color: white;
+    text-align: left;
+}
+.c-masthead__description {
+    font-size: 24px;
+    color: white;
+    font-family: 'Futura PT W01 Light';
+    letter-spacing: 1px;
+    line-height: 1;
+    margin: 0 0 30px;
+    
+}
+.c-masthead__cta {
+    border-radius: 40px;
+    border-color: #ffc700;
+    border-style: solid;
+    border-width: 3px;
+    color: #333e48;
+    margin: 0;
+    background-color: #ffc700;
+    padding: 10px 50px;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    height: 44px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    line-height: 0;
+    overflow: hidden;
+    text-transform: none;
+    transition: none;
+    white-space: nowrap;
+    width: auto;
+}
+.Power {
+    color: white;
+    font-size: 39px;
+
+}
