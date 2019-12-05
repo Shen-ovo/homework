@@ -1,18 +1,48 @@
 body {
     background-image: url(./images/15.jpg);
-    background-size: 1258px*706px;
     background-repeat: no-repeat;
+    background-position-x:50%;
+    background-position-y:50%;
+    box-sizing:border-box;
+    color:rgb(255, 255, 255);
+    display:block;
+    font-family:Lato;
+    font-style:normal;
+    font-weight:400;
+    height:706px;
+    line-height:24px;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin-left:0px;
+    position:absolute;
+    text-shadow:rgba(0, 0, 0, 0.004) 1px 1px 1px;
+    text-size-adjust:100%;
+    top:0px;
+    width:949px;
+    z-index:4;
+    -webkit-box-direction:normal;
+    -webkit-font-smoothing:antialiased;
+
 }
-.daohanglan {
+ul {
      list-style-type: none;
      text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
      list-style-position: inside;
      margin-bottom: 0;
      margin-left: 0;
-     display: list-item;
+     display: block;
      text-align: -wekit-match-parent;
      font-size: 1.125rem;
-     line-height: 1.5;   
+     line-height: 1.5; 
+     padding: 0%;
+     height: 100%;
+     width: 25%;
+     position: fixed;
+     overflow: auto;
+
+
+
 }
 
 .c-masthead__subtitle__title {
@@ -65,4 +95,52 @@ body {
     color: white;
     font-size: 39px;
 
+}
+.c-full-width-text-subcontent__primary {
+  box-sizing:border-box;
+  color:rgb(51, 62, 72);
+  display:block;
+  font-family:Lato, Helvetica, Arial, sans-serif;
+  font-size:48px;
+  font-style:normal;
+  font-weight:700;
+  height:180px;
+  line-height:60px;
+  margin-bottom:30px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:0px;
+  text-align:center;
+  text-shadow:rgba(0, 0, 0, 0.004) 1px 1px 1px;
+  text-size-adjust:100%;
+  width:407px;
+  -webkit-box-direction:normal;
+  -webkit-font-smoothing:antialiased;
+}
+.c-full-width-text-subcontent__description {
+box-sizing:border-box;
+color:rgb(51, 62, 72);
+display:block;
+font-family:Lato, Helvetica, Arial, sans-serif;
+font-size:16px;
+font-style:normal;
+font-weight:400;
+height:78px;
+letter-spacing:0.5px;
+line-height:26.4px;
+margin-block-end:16px;
+margin-block-start:0px;
+margin-bottom:16px;
+margin-inline-end:0px;
+margin-inline-start:0px;
+margin-left:0px;
+margin-right:0px;
+margin-top:0px;
+text-align:center;
+text-shadow:rgba(0, 0, 0, 0.004) 1px 1px 1px;
+text-size-adjust:100%;
+visibility:visible;
+width:919px;
+-webkit-box-direction:normal;
+-webkit-font-smoothing:antialiased;
 }
