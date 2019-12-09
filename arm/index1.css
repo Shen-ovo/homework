@@ -1,0 +1,22 @@
+
+#c-d2314fc9-4d50-44da-bd33-6cade089246a {
+    background-image: url(./images/15.jpg)
+}
+.orbit-container .orbit-slides-container>*:first-child {
+    margin-left: 0;
+}
+
+.c-masthead__item.is-inverted {
+    color: #fff;
+}
+.orbit-container .orbit-slides-container>* {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.c-masthead__item {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: inherit;
+}
